@@ -5,15 +5,16 @@ execute:
   echo: false
   message: false
   warning: false
+  include: false
 ---
 
 ```{r setup, include=FALSE}
 library(leaflet)
-library(readr)
+library(tidyverse)
 ```
 
 ```{r}
-data <- read_tsv("reef_life.csv")
+data <- read_csv("reef_life_final.csv") 
 ```
 
 ```{r}

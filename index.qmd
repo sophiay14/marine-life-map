@@ -5,7 +5,6 @@ execute:
   echo: false
   message: false
   warning: false
-  include: false
 ---
 
 ```{r setup, include=FALSE}

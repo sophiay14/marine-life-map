@@ -1,0 +1,38 @@
+---
+title: "Interactive Map of Reef Life"
+author: "Sophia Yao"
+execute:
+  echo: false
+  message: false
+  warning: false
+---
+
+```{r setup, include=FALSE}
+library(leaflet)
+library(readr)
+```
+
+```{r}
+data <- read_tsv("reef_life.csv")
+```
+
+```{r}
+leaflet(data) %>%
+  addTiles() %>%
+  addCircleMarkers(
+    lng = ~decimalLongitude,
+    lat = ~decimalLatitude,
+    color = ~colorNumeric("YlOrRd", data$individualCount)(individualCount),
+    stroke = FALSE,
+    fillOpacity = 0.8,
+    radius = 5,
+    popup = ~paste("Species:", scientificName, "<br>", "Count:", individualCount)
+  ) %>%
+  addLegend(
+    position = "bottomleft",
+    pal = colorNumeric("YlOrRd", data$individualCount),
+    values = ~individualCount,
+    title = "Individual Count",
+    opacity = 1
+  )
+```

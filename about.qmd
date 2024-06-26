@@ -1,0 +1,10 @@
+---
+title: "About"
+format: html
+---
+
+This project was created by Sophia Yao with the help of Alex Yao and ChatGPT. [Here](https://github.com/sophiay14) is Sophia's Github account page and her email is sophia.jiani.yao@gmail.com.
+
+The project uses data from [Reef Life Survey](https://www.gbif.org/dataset/38f06820-08c5-42b2-94f6-47cc3e83a54a) about marine life in reefs.
+
+This project was created as a part of [Kane’s Data Science Bootcamp](https://bootcamp.davidkane.info/).

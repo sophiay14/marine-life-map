@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://sophiay14.quarto.pub/marine-life-final/sources.html</loc>
+    <lastmod>2024-06-24T22:01:38.147Z</lastmod>
+  </url>
+  <url>
     <loc>https://sophiay14.quarto.pub/marine-life-final/index.html</loc>
     <lastmod>2024-06-24T03:10:08.131Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sophiay14.quarto.pub/marine-life-final/about.html</loc>
+    <lastmod>2024-06-24T21:25:50.887Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sophiay14.quarto.pub/marine-life-final/graph.html</loc>
+    <lastmod>2024-06-26T22:31:34.091Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sophiay14.quarto.pub/marine-life-final/interactive-map.html</loc>
+    <lastmod>2024-06-26T22:58:59.454Z</lastmod>
   </url>
 </urlset>

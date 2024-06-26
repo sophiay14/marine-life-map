@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "sources.html",
+    "href": "sources.html",
+    "title": "Sources",
+    "section": "",
+    "text": "The data was taken from a dataset published by the Reef Life Survey. Because this map only requires certain columns, columns that included data such as the fish species were removed."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This project was created by Sophia Yao with the help of Alex Yao and ChatGPT. Here is Sophia’s Github account page and her email is sophia.jiani.yao@gmail.com.\nThe project uses data from Reef Life Survey about marine life in reefs.\nThis project was created as a part of Kane’s Data Science Bootcamp."
+  },
+  {
+    "objectID": "graph.html",
+    "href": "graph.html",
+    "title": "Graph 2",
+    "section": "",
+    "text": "Ranked in the Order of Top Species\n\nLabroides dimidiatus (Valenciennes, 1839)\nOphthalmolepis lineolata (Valenciennes, 1839)\nParma microlepis Günther, 1862\nNotolabrus gymnogenis (Günther, 1862)\nAtypichthys strigatus (Günther, 1860)\nThalassoma lunare (Linnaeus, 1758)\nPictilabrus laticlavius (Richardson, 1840)\nTrachinops taeniatus Günther, 1861\nCheilodactylus fuscus Castelnau, 1879\nScorpis lineolata Kner, 1865\n\n\n\nRanked in the Order of Top Species (Common Name)\n\nCommon cleaner wrasse\nSouthern maori wrasse\nWhite-ear scalyfin\nCrimson banded wrasse\nMado\nCrescent wrasse\nSenator wrasse\nEastern hulafish\nRed morwong\nFalse pompano, Silver sweep, Sweep, Trumps, Windawindawi"
+  }
+]

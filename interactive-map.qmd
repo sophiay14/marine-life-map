@@ -1,0 +1,48 @@
+---
+title: "Interactive Map"
+format: html
+execute:
+  echo: false
+  message: false
+  warning: false
+---
+
+```{r setup, include=FALSE}
+# Loads libraries without displaying the code block
+library(leaflet)
+#For interactive graphs
+library(tidyverse)
+# For data manipulation and visualization
+```
+
+```{r}
+data <- read_csv("reef_life_final.csv") 
+# Loads the data which I named reef_life_final.csv
+# Reads and assigns the data to "data"
+```
+
+```{r}
+# There were a lot of problems with gateway timeout errors while publishing, as the raw data was extremely large (158,629 kb)
+# I attempted to find a way to cut it down using other, more efficient methods but I ended up manually selecting the unused columns and deleting them
+# I split the file into 2 because it was too large for Google Sheets, removed the columns, and merged them back into a csv file
+# It ended up only being 36,788 kb, and to help it publish faster, I closed all unneeded tabs and things running in the background which solved the gateway error problem
+# This code creates the leaflet map
+leaflet(data) %>%
+  addTiles() %>%
+  addCircleMarkers(
+    lng = ~decimalLongitude,
+    lat = ~decimalLatitude,
+    color = ~colorNumeric("YlOrRd", data$individualCount)(individualCount),
+    stroke = FALSE,
+    fillOpacity = 0.8,
+    radius = 5,
+    popup = ~paste("Species:", scientificName, "<br>", "Count:", individualCount)
+  ) %>%
+  addLegend(
+    position = "bottomleft",
+    pal = colorNumeric("YlOrRd", data$individualCount),
+    values = ~individualCount,
+    title = "Individual Count",
+    opacity = 1
+  )
+```

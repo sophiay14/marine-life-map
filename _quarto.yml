@@ -1,4 +1,19 @@
 project:
   type: website
-  title: "Reef Life Map"
 
+website: 
+  title: "Reef Life Map"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Graphs"
+        menu:
+          - text: "Graph 1"
+            href: interactive-map.qmd
+          - text: "Graph 2"
+            href: graph.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Sources"
+        href: sources.qmd

@@ -1,0 +1,6 @@
+---
+title: "Sources"
+format: html
+---
+
+The data was taken from a dataset published by the [Reef Life Survey](https://www.gbif.org/publisher/3fe68b43-b4b5-4b04-82d8-cca29f8e2164). Because this map only requires certain columns, columns that included data such as the fish species were removed.

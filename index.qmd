@@ -7,6 +7,8 @@ execute:
   warning: false
 ---
 
+Ever wondered what goes on in the bustling world of coral reefs? I've been exploring this through a project focused on reef life, using a dataset from the Reef Life Survey.  Today, I've used this data and created an interactive map that lets you explore these underwater communities based on species counts, and another part that highlights the top 10 most common species and where they're found. I have found that there is major reef life around places such as Australia, and that wrasses are very common in coral reefs.
+
 ```{r setup, include=FALSE}
 library(leaflet)
 library(tidyverse)

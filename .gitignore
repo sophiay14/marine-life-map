@@ -5,7 +5,7 @@
 
 /.quarto/
 
-*Rproj
+*.Rproj
 /_site
 /_publish
 rsconnect/

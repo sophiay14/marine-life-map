@@ -7,6 +7,13 @@
     "text": "The data was taken from a dataset published by the Reef Life Survey. Because this map only requires certain columns, columns that included data such as the fish species were removed."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Interactive Map of Reef Life",
+    "section": "",
+    "text": "Ever wondered what goes on in the bustling world of coral reefs? I’ve been exploring this through a project focused on reef life, using a dataset from the Reef Life Survey. Today, I’ve used this data and created an interactive map that lets you explore these underwater communities based on species counts, and another part that highlights the top 10 most common species and where they’re found. I have found that there is major reef life around places such as Australia, and that wrasses are very common in coral reefs."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -18,6 +25,6 @@
     "href": "graph.html",
     "title": "Graph 2",
     "section": "",
-    "text": "Ranked in the Order of Top Species\n\nLabroides dimidiatus (Valenciennes, 1839)\nOphthalmolepis lineolata (Valenciennes, 1839)\nParma microlepis Günther, 1862\nNotolabrus gymnogenis (Günther, 1862)\nAtypichthys strigatus (Günther, 1860)\nThalassoma lunare (Linnaeus, 1758)\nPictilabrus laticlavius (Richardson, 1840)\nTrachinops taeniatus Günther, 1861\nCheilodactylus fuscus Castelnau, 1879\nScorpis lineolata Kner, 1865\n\n\n\nRanked in the Order of Top Species (Common Name)\n\nCommon cleaner wrasse\nSouthern maori wrasse\nWhite-ear scalyfin\nCrimson banded wrasse\nMado\nCrescent wrasse\nSenator wrasse\nEastern hulafish\nRed morwong\nFalse pompano, Silver sweep, Sweep, Trumps, Windawindawi"
+    "text": "Ranked in the Order of Top Species\n\nLabroides dimidiatus\nOphthalmolepis lineolata\nParma microlepis Günther\nNotolabrus gymnogenis\nAtypichthys strigatus\nThalassoma lunare\nPictilabrus laticlavius\nTrachinops taeniatus Günther\nCheilodactylus fuscus Castelnau\nScorpis lineolata Kner\n\n\n\nRanked in the Order of Top Species (Common Name)\n\nCommon cleaner wrasse\nSouthern maori wrasse\nWhite-ear scalyfin\nCrimson banded wrasse\nMado\nCrescent wrasse\nSenator wrasse\nEastern hulafish\nRed morwong\nFalse pompano, Silver sweep, Sweep, Trumps, Windawindawi"
   }
 ]

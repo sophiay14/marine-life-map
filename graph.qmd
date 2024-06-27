@@ -37,7 +37,6 @@ top_species_data <- reef_life %>%
 
 ```{r}
 # Plots the given data
-# It is helpful to see the 
 ggplot(top_species_data, aes(x = decimalLongitude, y = decimalLatitude, color = scientificName)) +
   geom_point(alpha = 0.7, size = 2) +
   scale_color_brewer(type = "qual", palette = "Set2") +  
@@ -49,17 +48,22 @@ ggplot(top_species_data, aes(x = decimalLongitude, y = decimalLatitude, color = 
   theme_minimal()
 ```
 
+```{r}
+# The legend states the fish species in alphabetical order, not the actual top species list which is why I ordered them below so the viewer doesn't have to guess which fish are most common
+# The common names of the fish can help people recognize them better as the species are probably more well known by their common names than by their scientific names
+```
+
 #### Ranked in the Order of Top Species
-1. Labroides dimidiatus (Valenciennes, 1839)
-2. Ophthalmolepis lineolata (Valenciennes, 1839)
-3. Parma microlepis Günther, 1862
-4. Notolabrus gymnogenis (Günther, 1862)
-5. Atypichthys strigatus (Günther, 1860)
-6. Thalassoma lunare (Linnaeus, 1758)
-7. Pictilabrus laticlavius (Richardson, 1840)
-8. Trachinops taeniatus Günther, 1861
-9. Cheilodactylus fuscus Castelnau, 1879
-10. Scorpis lineolata Kner, 1865
+1. Labroides dimidiatus
+2. Ophthalmolepis lineolata
+3. Parma microlepis Günther
+4. Notolabrus gymnogenis
+5. Atypichthys strigatus
+6. Thalassoma lunare
+7. Pictilabrus laticlavius
+8. Trachinops taeniatus Günther
+9. Cheilodactylus fuscus Castelnau
+10. Scorpis lineolata Kner
 
 #### Ranked in the Order of Top Species (Common Name)
 1. Common cleaner wrasse
